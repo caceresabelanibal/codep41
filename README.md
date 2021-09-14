@@ -14,5 +14,5 @@ docker run -d -p 80:80 caceresabelanibal/app41:latest
 kubectl apply -f ./k8s/10-deployment.yml
 kubectl apply -f ./k8s/20-service.yml
 ```
-- I coudln´t figure out how to do it in just one .yaml, (maybe one yaml with both of "kubectl apply" on it? I did two of them, sorry.
+- For best practices in manifest (as I know) deployment and service go separated. Maybe I can merge them in one yaml with both "kubectl apply" together.
 - Thanks for the opportunity Bear and Sebastian!
