@@ -1,14 +1,16 @@
 # codep41
 ## P41 Challenge.
 
-- Docker:
+#The code is in PHP
+
+- To run in Docker:
 
 ```sh
 docker pull caceresabelanibal/app41:latest
 docker run -d -p 80:80 caceresabelanibal/app41:latest
 ```
 
-- Kubernetes:
+- To run in Kubernetes:
 
 ```sh
 kubectl apply -f ./k8s/10-deployment.yml
