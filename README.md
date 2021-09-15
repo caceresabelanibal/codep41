@@ -1,7 +1,9 @@
 # codep41
 ## P41 Challenge.
 
-#The code is in PHP
+# The code is in PHP
+# Index.php is the homepage, but the response is in /
+
 
 - To run in Docker:
 
